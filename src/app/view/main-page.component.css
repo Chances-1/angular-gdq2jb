@@ -1,3 +1,11 @@
-ag-grid-angular {
-  height:50%;
+.ag-grid{
+  padding:20px;
+  position: absolute;
+  height:50vh;
+  width:100vh;
+  bottom:0;
+}
+.ag-grid ag-grid-angular{
+
+  height:100%;
 }

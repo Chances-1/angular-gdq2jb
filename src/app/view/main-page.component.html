@@ -1,5 +1,10 @@
-<ag-grid-angular
-    class="ag-theme-alpine"
-    [rowData]="rowData"
-    [columnDefs]="columnDefs">
-</ag-grid-angular>
+
+<div class="ag-grid">
+    <!-- for the table -->
+
+    <ag-grid-angular
+        class="ag-theme-alpine" [rowData]="table_rowData" [columnDefs]="table_columnDefs" [defaultColDef]="table_defaultColDef" 
+        [enableCellChangeFlash]="true"
+        (gridReady)="onGridReady($event)">
+    </ag-grid-angular>
+</div>
