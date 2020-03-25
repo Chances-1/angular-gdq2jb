@@ -13,7 +13,6 @@
     "ag-grid-angular": "^23.0.0",
     "ag-grid-community": "23.0.1",
     "core-js": "2.6.11",
-    "plotly": "^1.0.6",
     "rxjs": "6.5.4",
     "tslib": "1.11.1",
     "zone.js": "0.9.1"
